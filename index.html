@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/206e2d8f46.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="image/images/xxd lg.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Ashish</span><br />Shinde From India</h1>
+        </div>
+      </div>
+    </div>
+    <!-------------about------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-call-1">
+            <img src="/image/images/user (2).png" />
+          </div>
+          <div class="about-call-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Thank you for visiting my website. I am glad you are interested in
+              web development. As a web developer, I specialize in creating
+              user-friendly websites that are visually appealing and
+              well-designed. I have experience in a range of web development
+              technologies, including HTML, CSS, JavaScript, PHP, MySQL, and
+              more. I am always looking to improve my skills and stay ahead of
+              the curve in web development trends. If you have any questions or
+              would like to discuss a project, please feel free to contact me. I
+              look forward to hearing from you.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/Ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Imerging Infotech</span><br />Current(2023)<br />
+                  • Web Development
+                </li>
+                <li>
+                  <span>Sales Force</span><br />2022<br />”Sales Force
+                  Developer(virtual)<br />
+                  Completed the Following Salesforce Trailhead Modules
+                  <br />•Apex Specialist <br />• Process Automation Specialist
+                </li>
+                <li>
+                  <span>D Soft Technology</span><br />2020<br />project <br />•
+                  Mood Detection Using AI <br />• Extensive research has been
+                  carried out to explore the relationships between these
+                  channels and emotions.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021-2024</span><br />computer enginnering from jit
+                  College, Nashik
+                </li>
+                <li>
+                  <span>2017-2021</span><br />computer diploma from MVP RSM
+                  Polytechnic, Nashik
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------Services----------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Conceptualized,created and manages dynamic web pages for data display and entry using appropriate 
+              technologies(Html,Css,javascript)
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Design interaction design, user interface design, prototyping usability research ,user testing and web 
+              design
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>
+               Generate an app idea.
+              , competitive market research.
+              , Write out the features for your app.
+              , Make design mockups of your app.
+              , Create your app's graphic design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------------portfolio--------------------------->
+    <div id="Portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/image/images/wrk1.png" />
+            <div class="layer">
+              <h3>Resaurant-Website</h3>
+              <p>
+                Hi this is a restaurant website. in this site you can take information about our restaurant,
+                 book a table, see our Chefs, see a delicious menu, customer feedback and ...</p>
+              <a href="https://github.com/Ashishcxz/Restaurant-website"
+              
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/images/wdb2.png" />
+            <div class="layer">
+              <h3>Filex</h3>
+              <p>
+                All your files in one secure location, accessible anywhere.
+              </p>
+              <a href="https://github.com/Ashishcxz/FIleX-"
+
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/images/wcb3.png" />
+            <div class="layer">
+              <h3>Mood Detection Using AI</h3>
+              <p>
+                About
+                Real-time Facial Emotion Detection using deep learning
+                
+              </p>
+              <a href="https://github.com/Ashishcxz/Mood-Detection-Using-AI"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Ashishcxz" class="btn">See more</a>
+      </div>
+    </div>
+    <!---------------------------------contact---------------------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-paper-plane"></i>as523941@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9763159620</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100024875913268"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/Ashis_h_"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/_ashis_h/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/a-shinde-394163234/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="image/images/my-cv.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="Email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © Ashish. Thanks for Visiting
+          <i class="fa-sharp fa-solid fa-heart"></i>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbybHLTtDtB50uHs74TeKLt6p0FUqG8iVZ0kaeWG8JdwcgmSFZs8VZLoVsi4PhziwnYR/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", erroe.message));
+      });
+    </script>
+  </body>
+</html>
